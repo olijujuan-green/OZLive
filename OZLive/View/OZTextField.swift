@@ -12,11 +12,13 @@ class OZTextField: UITextField {
     let insets              : UIEdgeInsets
     let image               : UIImage
     let placeholderString   : String
+    let secretText          : Bool
     
-    init(image: UIImage, placeHolderString: String) {
+    init(image: UIImage?, placeHolderString: String, secretText: Bool) {
         self.insets = UIEdgeInsets(top: 0, left: 32, bottom: 0, right: 12)
-        self.image = image
+        self.image = image!
         self.placeholderString = placeHolderString
+        self.secretText = secretText
         super.init(frame: .zero )
         
         let imageView = UIImageView(image: image)
@@ -27,6 +29,7 @@ class OZTextField: UITextField {
         layer.cornerRadius = 4
         leftViewMode = .always
         attributedPlaceholder = NSAttributedString(string: placeholderString, attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        isSecureTextEntry = secretText
         translatesAutoresizingMaskIntoConstraints = false
     }
     
