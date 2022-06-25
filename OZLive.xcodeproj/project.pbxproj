@@ -21,6 +21,7 @@
 		4C9DF9DA2866570A00203721 /* RootAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DF9D92866570A00203721 /* RootAuthVC.swift */; };
 		4C9DF9DC28665BCE00203721 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DF9DB28665BCE00203721 /* SignupVC.swift */; };
 		4C9DF9DE28665BDB00203721 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DF9DD28665BDB00203721 /* LoginVC.swift */; };
+		4C9DF9E02866935000203721 /* OZTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9DF9DF2866935000203721 /* OZTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4C9DF9D92866570A00203721 /* RootAuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAuthVC.swift; sourceTree = "<group>"; };
 		4C9DF9DB28665BCE00203721 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		4C9DF9DD28665BDB00203721 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4C9DF9DF2866935000203721 /* OZTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4C9DF9D6286656AA00203721 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C9DF9DF2866935000203721 /* OZTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C9DF9B9286652A900203721 /* ViewController.swift in Sources */,
+				4C9DF9E02866935000203721 /* OZTextField.swift in Sources */,
 				4C9DF9DC28665BCE00203721 /* SignupVC.swift in Sources */,
 				4C9DF9DE28665BDB00203721 /* LoginVC.swift in Sources */,
 				4C9DF9B5286652A900203721 /* AppDelegate.swift in Sources */,

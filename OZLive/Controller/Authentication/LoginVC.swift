@@ -14,6 +14,7 @@ class LoginVC: UIViewController {
 
         view.backgroundColor = .systemBackground
         title = "Login"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 
